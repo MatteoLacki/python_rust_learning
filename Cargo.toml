@@ -1,0 +1,19 @@
+[package]
+name = "guessing_game_maturin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "guessing_game_maturin"
+crate-type = ["cdylib"]
+
+[dependencies]
+rand = "0.8.4"
+numpy = "0.19"
+rayon = "1.7.0"
+
+[dependencies.pyo3]
+version = "0.19.0"
+# "abi3-py37" tells pyo3 (and maturin) to build using the stable ABI with minimum Python version 3.7
+features = ["abi3-py37"]

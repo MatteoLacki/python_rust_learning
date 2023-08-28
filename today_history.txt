@@ -1,0 +1,126 @@
+1000  ssh paserbox
+ 1001  ls
+ 1002  cd Poligono/
+ 1003  l
+ 1004  mkdir rust2python
+ 1005  cd rust2python/
+ 1006  virtualenv venv_r2p
+ 1007  source venv_r2p/
+ 1008  source venv_r2p/bin/activate
+ 1009  l
+ 1010  pip install maturim
+ 1011*  pip install --upgrade p
+ 1012  pip install maturin
+ 1013  cargo update
+ 1014  cargo-update
+ 1015  cargo upgrade
+ 1016  cargo --list
+ 1017  cargo update
+ 1018   cargo new --lib --edition 2021 guessing-game
+ 1019  l
+ 1020  ls guessing-game/
+ 1021  cargo update
+ 1022  cd guessing-game/
+ 1023  cargo update
+ 1024  cat Cargo.
+ 1025  cat Cargo.toml
+ 1026  code ..
+ 1027  cargo update
+ 1028  cargo build
+ 1029  cargo run
+ 1030  cargo start
+ 1031  cargo --list
+ 1032  cargo r
+ 1033  cargo test
+ 1034  man cargo test
+ 1035  vim pyproject.toml
+ 1036  code pyproject.toml
+ 1037  cargo build
+ 1038  ..
+ 1039  l
+ 1040  maturin new --help
+ 1041  maturin new -b pyo3 guessing_game_maturin
+ 1042  l
+ 1043  ranger
+ 1044  pip freeze | grep maturin
+ 1045  maturin develop
+ 1046  l
+ 1047  maturin develop
+ 1048  ../guessing_game
+ 1049  l
+ 1050  maturin develop
+ 1051  cd ..
+ 1052  l
+ 1053  cd guessing-game/
+ 1054  l
+ 1055  maturin develop
+ 1056  cd ..
+ 1057  l
+ 1058  cd guessing_game_maturin/
+ 1059  cd ..
+ 1060  l
+ 1061  cd guessing_game_maturin/
+ 1062  maturin develop
+ 1063  ipython
+ 1064  pip install ipython
+ 1065  ipython
+ 1066  ls
+ 1067  ls target/
+ 1068  ranger
+ 1069  pip freeze
+ 1070  ipython\
+ 1071  ipython
+ 1072  cd ..
+ 1073  ipython
+ 1074  cd rust2python/
+ 1075  l
+ 1076  ll
+ 1077  cd guessing_game_maturin/
+ 1078  l
+ 1079  pip uninstall guessing_game_maturin
+ 1080  maturin develop
+ 1081  pip freeze
+ 1082  ipythobn
+ 1083  ipython
+ 1084  deactivate
+ 1085  l
+ 1086  source ../venv_r2p/bin/activate
+ 1087  ipython
+ 1088  maturin build
+ 1089  l
+ 1090  l target/wheels/
+ 1091  pip install twine
+ 1092  twine -r test_pypi target/wheels/guessing_game_maturin-0.1.0-cp37-abi3-manylinux_2_34_x86_64.whl
+ 1093  twine upload -r test_pypi target/wheels/guessing_game_maturin-0.1.0-cp37-abi3-manylinux_2_34_x86_64.whl
+ 1094  twine -r test_pypi upload target/wheels/guessing_game_maturin-0.1.0-cp37-abi3-manylinux_2_34_x86_64.whl
+ 1095  twine upload target/wheels/guessing_game_maturin-0.1.0-cp37-abi3-manylinux_2_34_x86_64.whl
+ 1096  twine upload target/wheels/guessing_game_maturin-0.1.0-cp37-abi3-manylinux_2_34_x86_64.whl --verbose
+ 1097  cargo search numpy
+ 1098  maturin develop
+ 1099  cargo build
+ 1100  maturin develop
+ 1101  ipython
+ 1102  deactivate
+ 1103  source ../venv_r2p/bin/activate
+ 1104  ipython
+ 1105  maturin develop
+ 1106  deactivate
+ 1107  source ../venv_r2p/bin/activate
+ 1108  ipython
+ 1109  cargo search rayon
+ 1110  maturin develop
+ 1111  rustc --explain E0716
+ 1112  maturin develop
+ 1113  deactivate
+ 1114  source ../venv_r2p/bin/activate
+ 1115  ipython
+ 1116  deactivate
+ 1117  l
+ 1118  cd ..
+ 1119  l
+ 1120  git init
+ 1121  l
+ 1122  git status
+ 1123  cd guessing-game/
+ 1124  l
+ 1125  history
